@@ -5,11 +5,11 @@ const tripData = {
   homeBase: "Airbnb near Makati / Poblacion",
   style: "Fun, flexible, budget-aware",
   budget: {
-    friday: "PHP 12,100-27,500 for 8",
-    saturday: "PHP 31,800-63,900+ for 8",
+    friday: "PHP 11,100-25,500 for 8",
+    saturday: "PHP 26,800-57,900+ for 8",
     sunday: "PHP 3,000-6,500 for 8",
-    total: "PHP 46,900-97,900+ for 8",
-    perPerson: "PHP 5,860-12,240+",
+    total: "PHP 40,900-89,900+ for 8",
+    perPerson: "PHP 5,110-11,240+",
   },
   dressGuide: [
     {
@@ -150,8 +150,8 @@ const tripData = {
         {
           time: "9:00 AM",
           title: "Depart for Tagaytay",
-          description: "Use the car and budget for gas, tolls, and parking.",
-          cost: "PHP 3,500-5,500",
+          description: "Drive up to Tagaytay and keep the morning moving early.",
+          cost: "-",
           wear: "Casual",
           bring: "Water, shades, charger",
           links: [],
@@ -174,7 +174,7 @@ const tripData = {
           time: "12:30 PM",
           title: "Crosswinds short walk",
           description: "Light walk, photos, cool air, then move on before the group gets drained.",
-          cost: "PHP 0-500",
+          cost: "-",
           wear: "Casual",
           bring: "Phone, sunglasses, light jacket",
           links: [
@@ -210,7 +210,7 @@ const tripData = {
           time: "6:00 PM",
           title: "Reset at Airbnb",
           description: "Shower, light dinner if needed, and change into night clothes.",
-          cost: "PHP 1,500-3,500",
+          cost: "-",
           wear: "Night outfit",
           bring: "Fresh shirt, deodorant, power bank",
           links: [],
