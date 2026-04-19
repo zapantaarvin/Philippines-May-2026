@@ -236,10 +236,11 @@ const tripData = {
         {
           time: "11:30 PM or 12:00 AM",
           title: "Octopus",
-          description: "Main club stop for the night.",
+          description:
+            "Main club stop for the night. Strict dress code: for men, no sleeveless shirts, tank tops, cropped pants, shorts, slippers, sandals, bandanas, or headgear. Bring at least 1 valid ID.",
           cost: "PHP 8,000-20,000+",
-          wear: "Smart casual",
-          bring: "ID, phone, cash/card",
+          wear: "Strict smart casual",
+          bring: "Valid ID, phone, cash/card",
           links: [
             {
               label: "Octopus official",
