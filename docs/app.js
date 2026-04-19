@@ -1,5 +1,5 @@
 const tripData = {
-  title: "Philippines Weekend Plan",
+  title: "Jayson's Last Single Weekend",
   dateRange: "May 16 to May 18, 2026",
   groupSize: "8 people",
   homeBase: "Airbnb near Makati / Poblacion",
