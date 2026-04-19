@@ -13,6 +13,7 @@ This is a beginner-friendly workspace for:
 - `prompts/`: reusable prompt templates
 - `context/website/`: lasting notes about your website
 - `context/trip/`: lasting notes for your trip planning
+- `docs/`: shareable static website for the trip
 - `requests/website/`: one-off website tasks
 - `requests/trip/`: one-off trip tasks
 - `outputs/`: generated prompt files
@@ -29,6 +30,56 @@ bash scripts/run_prompt.sh website_update requests/website/sample_website_change
 ```
 
 That will generate a prompt file inside `outputs/`.
+
+## Anaconda setup
+
+You already have Anaconda installed on your Mac. This project can use it.
+
+### One-time setup
+
+Create the project environment:
+
+```bash
+cd /Users/arvinzapanta/Documents/Codex/2026-04-18-i-need-you-to-help-me
+conda env create -f environment.yml
+```
+
+### Run without activating anything
+
+This is the easiest option. The script will automatically use the Conda environment if it exists:
+
+```bash
+bash scripts/run_prompt.sh website_update requests/website/sample_website_change.md
+```
+
+### If you want `conda activate` to work in Terminal
+
+Run this once:
+
+```bash
+conda init zsh
+```
+
+Then close Terminal and open it again.
+
+After that, you can use:
+
+```bash
+conda activate prompt-workspace
+python scripts/run_prompt.py website_update --request-file requests/website/sample_website_change.md
+```
+
+### Open the notebook with Anaconda
+
+After the environment exists, run:
+
+```bash
+conda run -n prompt-workspace jupyter notebook
+```
+
+Then open:
+
+- `notebooks/prompt_workbench.ipynb`
 
 ## Main ways to use this
 
@@ -178,6 +229,40 @@ Trip prompt:
 cd /Users/arvinzapanta/Documents/Codex/2026-04-18-i-need-you-to-help-me
 bash scripts/run_prompt.sh trip_planner requests/trip/sample_trip_cleanup.md
 ```
+
+## Trip website
+
+This repo now includes a simple editable website in:
+
+- `docs/index.html`
+- `docs/styles.css`
+- `docs/app.js`
+
+To edit the trip content, start with:
+
+- `docs/app.js`
+
+That file stores the itinerary, budget, dress guide, and links.
+
+### Preview locally
+
+Open the file directly in your browser:
+
+```bash
+open /Users/arvinzapanta/Documents/Codex/2026-04-18-i-need-you-to-help-me/docs/index.html
+```
+
+### Share with friends using GitHub Pages
+
+1. Push your latest changes to GitHub.
+2. Open your repository settings on GitHub.
+3. Go to `Pages`.
+4. Under source, choose `Deploy from a branch`.
+5. Select branch `main`.
+6. Select folder `/docs`.
+7. Save.
+
+After GitHub finishes publishing, your friends can open the public site URL.
 
 ## When you are ready
 
