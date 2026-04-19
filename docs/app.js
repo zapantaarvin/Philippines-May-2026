@@ -67,7 +67,7 @@ const tripData = {
         },
         {
           time: "Dinner",
-          title: "Dinner spot",
+          title: "TBD",
           description: "Still open for selection. Keep it casual and budget-friendly.",
           cost: "PHP 3,000-5,000",
           wear: "Casual",
