@@ -88,6 +88,10 @@ const tripData = {
               url: "https://www.tripadvisor.com/Restaurant_Review-g298453-d12542557-Reviews-12_Monkeys_Music_Hall_Pub-Pasig_Metro_Manila_Luzon.html",
             },
             {
+              label: "Saguijo",
+              url: "https://www.facebook.com/saGuijo.Cafe.Bar.Events/",
+            },
+            {
               label: "19 East Facebook",
               url: "https://www.facebook.com/19east/",
             },
