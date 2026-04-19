@@ -1,6 +1,6 @@
 const tripData = {
   title: "Philippines Weekend Plan",
-  dateRange: "May 15 to May 17, 2026",
+  dateRange: "May 16 to May 18, 2026",
   groupSize: "8 people",
   homeBase: "Airbnb near Makati / Poblacion",
   style: "Fun, flexible, budget-aware",
@@ -53,7 +53,7 @@ const tripData = {
   ],
   days: [
     {
-      day: "Friday, May 15",
+      day: "Friday, May 16",
       subtitle: "Arrival + easy night",
       stops: [
         {
@@ -131,7 +131,7 @@ const tripData = {
       ],
     },
     {
-      day: "Saturday, May 16",
+      day: "Saturday, May 17",
       subtitle: "Tagaytay day + nightlife",
       stops: [
         {
@@ -268,7 +268,7 @@ const tripData = {
       ],
     },
     {
-      day: "Sunday, May 17",
+      day: "Sunday, May 18",
       subtitle: "Cheap and easy recovery day",
       stops: [
         {
