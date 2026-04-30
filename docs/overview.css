@@ -1,14 +1,14 @@
 :root {
-  --bg: #f4f7fb;
-  --bg-soft: #eaf0f7;
+  --bg: #eef7ff;
+  --bg-soft: #dfeefd;
   --panel: rgba(255, 255, 255, 0.88);
   --panel-strong: rgba(255, 255, 255, 0.96);
-  --line: rgba(41, 64, 92, 0.12);
-  --text: #1a2736;
-  --muted: #5e7086;
-  --accent: #5d87a1;
-  --accent-strong: #7c9a68;
-  --shadow: 0 24px 60px rgba(63, 88, 117, 0.14);
+  --line: rgba(53, 88, 122, 0.12);
+  --text: #18304a;
+  --muted: #58718c;
+  --accent: #5e95bf;
+  --accent-strong: #72967d;
+  --shadow: 0 24px 60px rgba(86, 126, 166, 0.16);
 }
 
 * {
@@ -21,9 +21,9 @@ body {
   color: var(--text);
   font-family: "Manrope", sans-serif;
   background:
-    radial-gradient(circle at top left, rgba(93, 135, 161, 0.16), transparent 28%),
-    radial-gradient(circle at right center, rgba(124, 154, 104, 0.14), transparent 24%),
-    linear-gradient(180deg, #f7fafc 0%, #edf3f8 46%, #f6f8fb 100%);
+    radial-gradient(circle at top left, rgba(117, 179, 226, 0.24), transparent 26%),
+    radial-gradient(circle at top right, rgba(176, 220, 255, 0.36), transparent 30%),
+    linear-gradient(180deg, #f3faff 0%, #e9f5ff 36%, #eef7ff 100%);
 }
 
 .site-wrap {
@@ -47,6 +47,19 @@ body {
   position: relative;
 }
 
+.masthead::before {
+  content: "";
+  position: absolute;
+  inset: auto 0 0 0;
+  height: 180px;
+  background:
+    radial-gradient(ellipse at 18% 100%, rgba(126, 161, 126, 0.22) 0 28%, transparent 29%),
+    radial-gradient(ellipse at 44% 100%, rgba(118, 149, 118, 0.22) 0 32%, transparent 33%),
+    radial-gradient(ellipse at 76% 100%, rgba(99, 132, 103, 0.24) 0 30%, transparent 31%),
+    linear-gradient(180deg, transparent 0%, rgba(220, 239, 255, 0.08) 46%, rgba(181, 212, 190, 0.16) 100%);
+  pointer-events: none;
+}
+
 .masthead::after {
   content: "";
   position: absolute;
@@ -55,7 +68,7 @@ body {
   right: -90px;
   top: -120px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(167, 216, 201, 0.24), transparent 70%);
+  background: radial-gradient(circle, rgba(133, 195, 243, 0.3), transparent 70%);
   opacity: 0.85;
 }
 
